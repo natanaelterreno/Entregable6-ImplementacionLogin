@@ -1,7 +1,7 @@
 import { connect } from "mongoose"
 
 const connectDb = () => {
-    connect('mongodb://127.0.0.1:27017/ecommerce')
+    connect('mongodb+srv://natanaelterreno:Bizit.2024@clustercursonodecoderho.urgxwjd.mongodb.net/ecommerce?retryWrites=true&w=majority&appName=ClusterCursoNodeCoderHouse')
     console.log('Base de Datos Conectada')
 }
 
